@@ -1,0 +1,29 @@
+
+table, th, td {
+    border: 1px black solid;
+    text-align: left;
+}
+table {
+    border-spacing: 20px 40px;
+   border-collapse: collapse;
+   table-layout: auto;
+ }
+ td {
+    height: 50px;
+    vertical-align: center;
+    padding: 6px;
+}
+th{
+    border: 1px cornsilk solid;
+    height: 40px;
+    background-color: rgb(51, 51, 51);
+    color: cornsilk;
+    padding:6px;
+}
+tr:hover {
+    background-color:rgb(177, 174, 179) !important;
+    cursor: pointer;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

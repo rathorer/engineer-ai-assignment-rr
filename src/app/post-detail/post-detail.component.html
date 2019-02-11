@@ -1,0 +1,12 @@
+<div>
+  <h2 mat-dialog-title style="max-width:80%;">{{post.title}}</h2>
+</div>
+<div>
+<mat-dialog-content>
+<pre>
+  {{postJson}}
+</pre>
+</mat-dialog-content>
+</div>
+<button type="button" (click)="close()" style="float:right">Close</button>
+
